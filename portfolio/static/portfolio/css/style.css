@@ -28,29 +28,37 @@ h1,p{
     font-size: medium;
 }
 .demo1{ 
-    color: rgb(238, 10, 10);
+    display: flex;
+    align-items: center;
+    color: rgb(6, 175, 14);
     width: 20rem;
     height: 20rem;
-    background: url(https://picsum.photos/200/300?grayscale);
+    background: black;
     border: 5px solid rgb(167, 168, 185);
     border-radius: 50%;
 }
 .demo2{
-    color: rgb(238, 10, 10);
+    display: flex;
+    align-items: center;
+    color: rgb(192, 14, 14);
     width: 20rem;
     height: 20rem;
     background: url(https://picsum.photos/200/300) ;
     border-radius: 90% 53% 23% 90%;
 }
 .demo3{
-    color: rgb(238, 10, 10);
+    display: flex;
+    align-items: center;
+    color: rgb(206, 193, 18);
     width: 20rem;
     height: 20rem;
     background: url(https://picsum.photos/id/237/200/300);
     border-radius: 10% 10% 10% 90%;
 }
 .demo4{
-    color: rgb(238, 10, 10);
+    display: flex;
+    align-items: center;
+    color: rgb(7, 18, 182);
     width: 20rem;
     height: 20rem;
     background: url(https://picsum.photos/seed/picsum/200/300);
