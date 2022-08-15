@@ -1,0 +1,70 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(10, 4, 88);
+    color: aqua;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+.img {
+    position: relative;
+    width: 20%;
+    top: 0.5rem;
+    right: 0.2rem;
+    border-radius: 10% 90% 10% 90%;
+}
+#presentation{
+    text-align: center;
+}
+h1,p{
+    font-size: medium;
+}
+.demo1{ 
+    color: rgb(238, 10, 10);
+    width: 20rem;
+    height: 20rem;
+    background: url(https://picsum.photos/200/300?grayscale);
+    border: 5px solid rgb(167, 168, 185);
+    border-radius: 50%;
+}
+.demo2{
+    color: rgb(238, 10, 10);
+    width: 20rem;
+    height: 20rem;
+    background: url(https://picsum.photos/200/300) ;
+    border-radius: 90% 53% 23% 90%;
+}
+.demo3{
+    color: rgb(238, 10, 10);
+    width: 20rem;
+    height: 20rem;
+    background: url(https://picsum.photos/id/237/200/300);
+    border-radius: 10% 10% 10% 90%;
+}
+.demo4{
+    color: rgb(238, 10, 10);
+    width: 20rem;
+    height: 20rem;
+    background: url(https://picsum.photos/seed/picsum/200/300);
+    border-radius: 50% 50% 10% 10%;
+}
+.contact{
+   
+    color: rgb(238, 17, 201);
+    text-align: center;
+    font-size: 2rem;
+    width: 20rem;
+    height: 20rem;
+
+}
+a{
+    text-decoration: none;
+}

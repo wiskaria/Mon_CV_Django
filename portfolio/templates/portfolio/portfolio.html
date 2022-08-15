@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}" />
+  </head>
+  <body>
+    <section id="presentation">
+      <div>
+        <img src={% static 'Le_CV/img/moi.jpg' %} alt="photo de moi"
+        class="img">
+      </div>
+      <div>
+        <h1>Bienvenue</h1>
+      </div>
+      <div>
+        <p>
+          je me présente je m'appelle <span>Sébastien Baeyens</span> j'aime
+          <span>l'informatique</span> et les nouvelles technologis , ceci est un
+          exemple de portfolio
+        </p>
+      </div>
+
+      <div>
+        <p class="demo1">{% lorem 10 w random %}</p>
+      </div>
+      <div>
+        <p class="demo2">{% lorem 8 w random %}</p>
+      </div>
+      <div>
+        <p class="demo3">{% lorem 10 w random %}</p>
+      </div>
+      <div>
+        <p class="demo4">{% lorem 8 w random %}</p>
+      </div>
+
+      <div>
+        <a href="mailto:abc@example.com?subject = Feedback&body = Message">
+          <h2 class="contact">Pour me contacter clicker ici</h2>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
