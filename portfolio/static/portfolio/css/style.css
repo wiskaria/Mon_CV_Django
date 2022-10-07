@@ -7,8 +7,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: rgb(10, 4, 88);
-    color: aqua;
+    background-color: rgb(0, 0, 0);
+    color: #0d6efd;
 }
 div{
     display: flex;
@@ -21,58 +21,73 @@ div{
     right: 0.2rem;
     border-radius: 10% 90% 10% 90%;
 }
+.pres{
+    margin-bottom: 5rem;
+    text-align: center;
+    width: 20rem;
+}
 #presentation{
+    
     text-align: center;
 }
 h1,p{
     font-size: medium;
 }
+.demo1txt{
+    display: relative;
+    text-align: center;
+    width: 50rem;
+    height: 50rem;
+
+}
 .demo1{ 
-    display: flex;
-    align-items: center;
-    color: rgb(6, 175, 14);
     width: 20rem;
     height: 20rem;
-    background: black;
-    border: 5px solid rgb(167, 168, 185);
+    border: 5px solid rgb(19, 27, 182);
     border-radius: 50%;
 }
+.demo2txt{
+    display: relative;
+    text-align: center;
+    width: 50rem;
+    height: 50rem;
+}
 .demo2{
-    display: flex;
-    align-items: center;
-    color: rgb(192, 14, 14);
     width: 20rem;
     height: 20rem;
-    background: url(https://picsum.photos/200/300) ;
     border-radius: 90% 53% 23% 90%;
 }
+.demo3txt{
+    display: relative;
+    text-align: center;
+    width: 50rem;
+    height: 50rem;
+}
 .demo3{
-    display: flex;
-    align-items: center;
-    color: rgb(206, 193, 18);
+   
     width: 20rem;
     height: 20rem;
-    background: url(https://picsum.photos/id/237/200/300);
     border-radius: 10% 10% 10% 90%;
 }
+.demo4txt{
+    display: relative;
+    text-align: center;
+    width: 50rem;
+    height: 50rem;
+}
 .demo4{
-    display: flex;
-    align-items: center;
-    color: rgb(7, 18, 182);
+   
     width: 20rem;
     height: 20rem;
-    background: url(https://picsum.photos/seed/picsum/200/300);
-    border-radius: 50% 50% 10% 10%;
+    
 }
 .contact{
    
-    color: rgb(238, 17, 201);
     text-align: center;
     font-size: 2rem;
-    width: 20rem;
-    height: 20rem;
 
 }
 a{
-    text-decoration: none;
+    color: #0d6efd;
+    margin: 2px;
 }

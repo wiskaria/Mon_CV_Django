@@ -16,31 +16,44 @@
         <h1>Bienvenue</h1>
       </div>
       <div>
-        <p>
+        <p class="pres">
           je me présente je m'appelle <span>Sébastien Baeyens</span> j'aime
-          <span>l'informatique</span> et les nouvelles technologis , ceci est un
-          exemple de portfolio
+          <span>l'informatique</span> et les nouvelles technologis .
         </p>
       </div>
 
-      <div>
-        <p class="demo1">{% lorem 10 w random %}</p>
+      <div >
+        <img class="demo1" src={% static 'portfolio/img/cv_Django.jpg' %} alt="CV_Django"
+        class="img">
+        <p class="demo1txt">le projet CV sur le quelle vous vous trouviller précédemment voici un lien vers github <a href="https://github.com/wiskaria/Mon_CV_Django">
+          Mon_CV_Django</a></p>
       </div>
       <div>
-        <p class="demo2">{% lorem 8 w random %}</p>
+        <img class="demo2" src={% static 'portfolio/img/E-city.jpg' %} alt="site E-city"
+        class="img">
+        <p class="demo2txt">le projet <a href="https://github.com/wiskaria/projet-E-city"> E-city </a>  a été realiser en html css et javaScript dansle cader de ma formation a Cfitech </p>
       </div>
       <div>
-        <p class="demo3">{% lorem 10 w random %}</p>
+        <img class="demo3" src={% static 'portfolio/img/video-center.jpg' %} alt="site E-city"
+        class="img">
+        <p class="demo3txt">le projet <a href="https://github.com/wiskaria/projet_video_center"> video center </a> et un exercise que l'on a realiser pour le cours de symfony , il et realiser en PHP8(symfony6) </p>
       </div>
       <div>
-        <p class="demo4">{% lorem 8 w random %}</p>
+        <img class="demo4" src={% static 'portfolio/img/Pinterest-dev.jpg' %} alt="site E-city"
+        class="img">
+        <p class="demo4txt"><a href="https://github.com/wiskaria/pinterest_dev">Pinterest-dev </a> une zone de formation en cour ,il et fait en PHP8(symfony6)</p>
       </div>
 
       <div>
-        <a href="mailto:abc@example.com?subject = Feedback&body = Message">
+        <a href="mailto:sesebaey@outlook.be?subject = Feedback&body = Message">
           <h2 class="contact">Pour me contacter cliquez ici</h2>
         </a>
+        <br/>
+        
       </div>
+      <div><a href="..">
+        <h3>retour vers le CV</h3>
+      </a></div>
     </section>
   </body>
 </html>
